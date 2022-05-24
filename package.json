@@ -1,5 +1,7 @@
 {
-  "name": "nen",
+  "name": "next-kanban",
+   "author":"Richson Simbabure",
+   "GITHUB": "RSimmz98",
   "version": "0.1.0",
   "private": true,
   "scripts": {
