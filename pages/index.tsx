@@ -1,12 +1,9 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import React from 'react';
 
-const Home: NextPage = () => {
+import { ProjectsMenu } from '../components/projects-menu';
+
+export default function ProjectsPage() {
   return (
-      <div>hello word</div>
-     )
+    <ProjectsMenu/>
+  );
 }
-
-export default Home
