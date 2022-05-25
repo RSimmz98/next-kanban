@@ -1,6 +1,6 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
-import Popper, { PopperProps } from '@material-ui/core/Popper';
+import Paper from '@mui/material/Paper';
+import Popper, { PopperProps } from '@mui/material/Popper';
 
 export default function Popover({ children, style, ...props }: PopperProps) {
   return (

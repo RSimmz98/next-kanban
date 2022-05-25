@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAsync, useAsyncCallback } from 'react-async-hook';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import Router from 'next/router'
 
 import { useServiceClient } from '../../service';

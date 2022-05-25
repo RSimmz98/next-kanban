@@ -1,15 +1,15 @@
 import React, { ReactNode, HTMLAttributes } from 'react';
-import IconButton, { IconButtonProps as MuiIconButtonProps } from '@material-ui/core/IconButton';
-import AddIcon from '@material-ui/icons/Add';
-import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
-import DeleteIcon from '@material-ui/icons/DeleteForever';
-import EditIcon from '@material-ui/icons/Edit';
-import CloseIcon from '@material-ui/icons/Close';
-import CheckIcon from '@material-ui/icons/Check';
+import IconButton, { IconButtonProps as MuiIconButtonProps } from '@mui/material/IconButton';
+import AddIcon from '@mui/icons-material/Add';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz'
+import DeleteIcon from '@mui/icons-material/DeleteForever';
+import EditIcon from '@mui/icons-material/Edit';
+import CloseIcon from '@mui/icons-material/Close';
+import CheckIcon from '@mui/icons-material/Check';
 import { OverridableComponent } from '@material-ui/core/OverridableComponent';
-import { SvgIconTypeMap } from '@material-ui/core/SvgIcon/SvgIcon';
-import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
+import { SvgIconTypeMap } from '@mui/material;';
+import Grid from '@mui/material/Grid';
+import Button from '@mui/material/Button';
 
 import { useStyles } from './styles';
 

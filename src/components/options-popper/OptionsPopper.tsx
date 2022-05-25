@@ -1,8 +1,8 @@
 import React, { ReactNode, Children, CSSProperties } from 'react';
-import Popper from '@material-ui/core/Popper';
-import Paper from '@material-ui/core/Paper';
-import ClickAwayListener from '@material-ui/core/ClickAwayListener';
-import { PopperPlacementType } from '@material-ui/core/Popper';
+import Popper from '@mui/material/Popper';
+import Paper from '@mui/material/Paper';
+import ClickAwayListener from '@mui/material/ClickAwayListener';
+import { PopperPlacementType } from '@mui/material/core/Popper';
 import { OptionsButton } from '../buttons';
 
 export interface Props {
