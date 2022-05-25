@@ -1,4 +1,4 @@
-import { makeStyles } from '@mui/material/styles';
+import { makeStyles } from '@mui/system';
 
 export const useStyles = makeStyles(theme => ({
   buttons: {

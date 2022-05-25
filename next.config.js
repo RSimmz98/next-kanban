@@ -1,10 +1,6 @@
-const path = require('path');
-
 module.exports = {
-  output: {
-    filename: 'my-first-webpack.bundle.js',
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    // Important: return the modified config
+    return config
   },
-  module: {
-    rules: [{ test: /\.txt$/, use: 'raw-loader' }],
-  },
-};
+}
