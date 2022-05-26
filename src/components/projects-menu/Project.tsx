@@ -11,7 +11,7 @@ import Paper from '@mui/material/Paper';
 import Dialog from '@mui/material/Dialog';
 
 import { OptionsPopper } from '../options-popper';
-import { useProjectStyles } from './styles';
+import { useProjectStyles } from './makeStyles';
 
 export interface ProjectProps {
   id: string,

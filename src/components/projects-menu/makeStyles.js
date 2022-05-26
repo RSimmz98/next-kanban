@@ -1,4 +1,3 @@
-import { makeStyles } from '@mui/styles/makeStyles';
 
 export const useProjectsStyles = makeStyles(theme => ({
   root: {

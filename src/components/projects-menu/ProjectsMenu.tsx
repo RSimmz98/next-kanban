@@ -5,7 +5,7 @@ import Router from 'next/router'
 
 import { useServiceClient } from '../../service';
 import { ProjectMeta } from '../../dashboard/store/types';
-import { useProjectsStyles } from './styles';
+import { useProjectsStyles } from './makeStyles';
 import ProjectCreatorForm from './ProjectCreatorForm';
 import Project from './Project';
 
