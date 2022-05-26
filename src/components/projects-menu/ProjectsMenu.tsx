@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useAsync, useAsyncCallback } from 'react-async-hook';
-import Button from '@mui/material/Button';
+import Button from '@material-ui/core/Button';
 import Router from 'next/router'
 
 import { useServiceClient } from '../../service';
 import { ProjectMeta } from '../../dashboard/store/types';
-import { useProjectsStyles } from './makeStyles';
+import { useProjectsStyles } from './styles';
 import ProjectCreatorForm from './ProjectCreatorForm';
 import Project from './Project';
 

@@ -1,10 +1,10 @@
-import { createTheme } from '@mui/material/styles';
-import { blue, red } from '@mui/material/colors';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { blue, red } from '@material-ui/core/colors';
 
 const borderRadius = 4;
 
 // @ts-ignore
-export default createTheme({
+export default createMuiTheme({
   palette: {
   },
   overrides: {

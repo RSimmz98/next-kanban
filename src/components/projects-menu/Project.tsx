@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import Typography from '@mui/material/Typography';
+import Typography from '@material-ui/core/Typography';
 import { ConfirmationButtons, } from '../buttons';
 import Link from 'next/link';
-import IconButton from '@mui/material/IconButton';
-import NavigateIcon from '@mui/icons-material/OpenInNew';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import Paper from '@mui/material/Paper';
-import Dialog from '@mui/material/Dialog';
+import IconButton from '@material-ui/core/IconButton';
+import NavigateIcon from '@material-ui/icons/OpenInNew';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import Paper from '@material-ui/core/Paper';
+import Dialog from '@material-ui/core/Dialog';
 
 import { OptionsPopper } from '../options-popper';
-import { useProjectStyles } from './makeStyles';
+import { useProjectStyles } from './styles';
 
 export interface ProjectProps {
   id: string,
