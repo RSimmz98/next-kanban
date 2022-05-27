@@ -36,9 +36,9 @@ export default function ProjectsMenu() {
       <div className={classNames.menu}>
         {isCreatorOpen
           ? <ProjectCreatorForm onCancel={closeCreator} />
-          : <Button onClick={openCreator} color="primary">New Project</Button>
+          : <Button onClick={openCreator} color="primary">Get Started</Button>
         }
-
+        <p>Bellow is an example of a demo project that was created!!</p>
         {result && result.map(({ id, title, description }: ProjectMeta) => {
           return (
             <Project key={id} id={id} title={title} description={description} onDelete={handleDelete} />

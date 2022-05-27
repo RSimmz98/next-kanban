@@ -2,7 +2,7 @@ export default {
   "2658eced-fd21-446a-8d7c-4896f0d423b3": {
     "meta": {
       "id": "2658eced-fd21-446a-8d7c-4896f0d423b3",
-      "title": "First Project",
+      "title": "Demo Project",
       "description": "An example project with a basic Kanban setup",
       "ts": "2020-08-17T18:56:03.642Z"
     },
@@ -11,7 +11,7 @@ export default {
         "user": {
           "3e39228d-c44c-44dc-93ba-e85497c162ce": {
             "id": "3e39228d-c44c-44dc-93ba-e85497c162ce",
-            "username": "John Doe",
+            "username": "Demo Account",
             "createdTaskIds": [
               "ca6a69f9-76e4-4c2a-91ef-28af60e741ad",
               "2e334c1c-f74e-4830-9a55-4b044e5b1b87",
@@ -30,7 +30,7 @@ export default {
           },
           "112dd8bf-e9b4-4b76-95d6-62ec6f50797d": {
             "id": "112dd8bf-e9b4-4b76-95d6-62ec6f50797d",
-            "username": "Briet Sparks",
+            "username": "Richson",
             "commentIds": [
               "3aa940c2-187a-4511-ab35-0d2c8f605808"
             ],
